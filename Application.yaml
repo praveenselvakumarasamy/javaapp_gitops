@@ -9,6 +9,7 @@ spec:
   source:
     repoURL: https://github.com/praveenselvakumarasamy/javaapp_gitops.git
     targetRevision: HEAD
+    path: Demo
   destination: 
     server: https://kubernetes.default.svc
     namespace: myapp
