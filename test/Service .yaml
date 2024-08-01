@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: javaapp-service
 spec:
-  type: Nodeport
+  type: NodePort
   selector:
     app.kubernetes.io/name: javaapp
   ports:
